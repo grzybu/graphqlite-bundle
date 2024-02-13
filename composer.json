@@ -15,6 +15,12 @@
     "homepage" : "http://mouf-php.com"
   }
   ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/aszenz/GraphiQLBundle"
+    }
+],
   "require" : {
     "php" : ">=8.1",
     "ext-json": "*",
@@ -27,7 +33,7 @@
     "symfony/psr-http-message-bridge": "^7.0",
     "nyholm/psr7": "^1.1",
     "laminas/laminas-diactoros": "^2.2.2",
-    "overblog/graphiql-bundle": "^0.2 || ^0.3",
+    "overblog/graphiql-bundle": "dev-master",
     "thecodingmachine/cache-utils": "^1",
     "symfony/console": "^6 || ^7"
   },
